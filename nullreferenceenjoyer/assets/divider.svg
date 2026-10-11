@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 28" width="1200" height="28" role="presentation">
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7aa2f7" stop-opacity="0"/>
+      <stop offset="0.25" stop-color="#7aa2f7"/>
+      <stop offset="0.5" stop-color="#bb9af7"/>
+      <stop offset="0.75" stop-color="#f7768e"/>
+      <stop offset="1" stop-color="#f7768e" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="13" width="1200" height="2" rx="1" fill="url(#line)"/>
+  <g fill="#ffb7c5">
+    <g>
+      <animateMotion dur="9s" repeatCount="indefinite" path="M-20,14 C200,2 400,26 600,14 S1000,2 1220,14"/>
+      <path d="M0,0 C3,-7 12,-8 14,-1 C15,6 6,9 0,0Z">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g opacity=".7">
+      <animateMotion dur="9s" begin="-4.5s" repeatCount="indefinite" path="M-20,14 C200,26 400,2 600,14 S1000,26 1220,14"/>
+      <path d="M0,0 C3,-7 12,-8 14,-1 C15,6 6,9 0,0Z" transform="scale(.7)">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="4s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+  <circle cx="600" cy="14" r="4" fill="#bb9af7">
+    <animate attributeName="r" values="3;5;3" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+</svg>

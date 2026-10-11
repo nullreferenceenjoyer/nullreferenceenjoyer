@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 340" width="900" height="340" role="img" aria-label="terminal: whoami">
+  <defs>
+    <style>
+      text { font-family: 'JetBrains Mono','Cascadia Code','Fira Code',Consolas,'DejaVu Sans Mono',monospace; font-size: 15px; }
+      .p { fill: #9ece6a; } .c { fill: #c0caf5; } .o { fill: #a9b1d6; } .k { fill: #7aa2f7; } .s { fill: #e0af68; }
+      .e { fill: #f7768e; font-weight: 700; } .m { fill: #565f89; } .v { fill: #bb9af7; }
+      .blink { animation: blink 0.9s steps(1) infinite; }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <rect width="900" height="340" rx="14" fill="#1a1b26"/>
+  <rect width="900" height="340" rx="14" fill="none" stroke="#2f334d" stroke-width="2"/>
+  <path d="M0,14 a14,14 0 0 1 14,-14 h872 a14,14 0 0 1 14,14 v24 h-900z" fill="#16161e"/>
+  <circle cx="24" cy="19" r="6" fill="#f7768e"/>
+  <circle cx="44" cy="19" r="6" fill="#e0af68"/>
+  <circle cx="64" cy="19" r="6" fill="#9ece6a"/>
+  <text x="450" y="24" text-anchor="middle" class="m" style="font-size:13px">null@tokyo-night: ~/nullreferenceenjoyer</text>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.03;0.04;0.97;1" dur="16s" repeatCount="indefinite"/>
+    <text x="24" y="70"><tspan class="p">❯</tspan><tspan class="c"> whoami</tspan></text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.09;0.10;0.97;1" dur="16s" repeatCount="indefinite"/>
+    <text x="24" y="94" class="v">nullreferenceenjoyer</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.17;0.18;0.97;1" dur="16s" repeatCount="indefinite"/>
+    <text x="24" y="130"><tspan class="p">❯</tspan><tspan class="c"> cat about.json</tspan></text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.24;0.25;0.97;1" dur="16s" repeatCount="indefinite"/>
+    <text x="24" y="154" class="o">{</text>
+    <text x="44" y="176"><tspan class="k">"role"</tspan><tspan class="o">: </tspan><tspan class="s">"fullstack developer"</tspan><tspan class="o">,</tspan></text>
+    <text x="44" y="198"><tspan class="k">"likes"</tspan><tspan class="o">: [</tspan><tspan class="s">"TypeScript"</tspan><tspan class="o">, </tspan><tspan class="s">"self-hosted"</tspan><tspan class="o">, </tspan><tspan class="s">"clean UI"</tspan><tspan class="o">, </tspan><tspan class="s">"anime"</tspan><tspan class="o">],</tspan></text>
+    <text x="44" y="220"><tspan class="k">"motto"</tspan><tspan class="o">: </tspan><tspan class="s">"it works on my machine"</tspan></text>
+    <text x="24" y="242" class="o">}</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.40;0.41;0.97;1" dur="16s" repeatCount="indefinite"/>
+    <text x="24" y="278"><tspan class="p">❯</tspan><tspan class="c"> ./plan-life.sh</tspan></text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.50;0.51;0.97;1" dur="16s" repeatCount="indefinite"/>
+    <text x="24" y="302"><tspan class="e">NullReferenceException</tspan><tspan class="o">: plan was null</tspan><tspan class="m">  // не баг, а фича</tspan></text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.56;0.57;0.97;1" dur="16s" repeatCount="indefinite"/>
+    <text x="24" y="326" class="p">❯</text>
+    <rect class="blink" x="42" y="312" width="9" height="18" fill="#bb9af7"/>
+  </g>
+</svg>

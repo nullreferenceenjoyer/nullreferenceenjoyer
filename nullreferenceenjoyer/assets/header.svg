@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-label="nullreferenceenjoyer">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16161e"/>
+      <stop offset="0.55" stop-color="#1a1b26"/>
+      <stop offset="1" stop-color="#2a1f3d"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7aa2f7"/>
+      <stop offset="0.5" stop-color="#bb9af7"/>
+      <stop offset="1" stop-color="#f7768e"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.4" cy="0.38" r="0.7">
+      <stop offset="0" stop-color="#fff1f5"/>
+      <stop offset="0.6" stop-color="#ffc9d9"/>
+      <stop offset="1" stop-color="#f7a8c4"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f7768e" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#f7768e" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="frame"><rect width="1200" height="320" rx="22"/></clipPath>
+    <clipPath id="typed"><rect class="typed" x="70" y="192" width="660" height="34"/></clipPath>
+    <path id="petal" d="M0,0 C3,-7 12,-8 14,-1 C15,6 6,9 0,0Z"/>
+    <style>
+      text { font-family: 'JetBrains Mono','Cascadia Code','Fira Code',Consolas,'DejaVu Sans Mono',monospace; }
+      .typed  { transform-box: fill-box; transform-origin: left center; animation: type 9s steps(55) infinite; }
+      .cursor { animation: move 9s steps(55) infinite; }
+      .blink  { animation: blink 0.9s steps(1) infinite; }
+      .g1 { animation: g1 6s steps(1) infinite; }
+      .g2 { animation: g2 6s steps(1) infinite; }
+      @keyframes type  { 0% { transform: scaleX(0); } 40%, 96% { transform: scaleX(1); } 100% { transform: scaleX(0); } }
+      @keyframes move  { 0% { transform: translateX(0); } 40%, 96% { transform: translateX(660px); } 100% { transform: translateX(0); } }
+      @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+      @keyframes g1 { 0%, 89%, 96%, 100% { opacity: 0; transform: translate(0,0); } 90% { opacity: .85; transform: translate(-5px,1px); } 92% { opacity: .85; transform: translate(4px,-2px); } 94% { opacity: .85; transform: translate(-2px,0); } }
+      @keyframes g2 { 0%, 89%, 96%, 100% { opacity: 0; transform: translate(0,0); } 90% { opacity: .85; transform: translate(5px,-1px); } 92% { opacity: .85; transform: translate(-4px,2px); } 94% { opacity: .85; transform: translate(3px,0); } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#sky)"/>
+
+    <!-- звёзды -->
+    <g fill="#c0caf5">
+      <circle cx="60" cy="40" r="1.4"><animate attributeName="opacity" values="1;.2;1" dur="3.1s" repeatCount="indefinite"/></circle>
+      <circle cx="180" cy="270" r="1.1"><animate attributeName="opacity" values=".3;1;.3" dur="4.3s" repeatCount="indefinite"/></circle>
+      <circle cx="310" cy="48" r="1.6"><animate attributeName="opacity" values="1;.3;1" dur="2.6s" repeatCount="indefinite"/></circle>
+      <circle cx="455" cy="26" r="1"><animate attributeName="opacity" values=".2;1;.2" dur="3.8s" repeatCount="indefinite"/></circle>
+      <circle cx="560" cy="74" r="1.3"><animate attributeName="opacity" values="1;.2;1" dur="5.2s" repeatCount="indefinite"/></circle>
+      <circle cx="690" cy="36" r="1.7"><animate attributeName="opacity" values=".4;1;.4" dur="3.4s" repeatCount="indefinite"/></circle>
+      <circle cx="790" cy="96" r="1.1"><animate attributeName="opacity" values="1;.3;1" dur="4.7s" repeatCount="indefinite"/></circle>
+      <circle cx="850" cy="30" r="1.4"><animate attributeName="opacity" values=".2;1;.2" dur="2.9s" repeatCount="indefinite"/></circle>
+      <circle cx="1130" cy="42" r="1.5"><animate attributeName="opacity" values="1;.2;1" dur="3.6s" repeatCount="indefinite"/></circle>
+      <circle cx="1160" cy="150" r="1.1"><animate attributeName="opacity" values=".3;1;.3" dur="4.1s" repeatCount="indefinite"/></circle>
+      <circle cx="770" cy="170" r="1"><animate attributeName="opacity" values="1;.3;1" dur="5.5s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- падающая звезда -->
+    <line x1="0" y1="0" x2="70" y2="24" stroke="#c0caf5" stroke-width="1.6" stroke-linecap="round" opacity="0">
+      <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.80;0.84;0.9;1" dur="8s" repeatCount="indefinite"/>
+      <animateTransform attributeName="transform" type="translate" values="420,-30;420,-30;700,70;700,70" keyTimes="0;0.80;0.9;1" dur="8s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- луна -->
+    <circle cx="985" cy="140" r="170" fill="url(#glow)">
+      <animate attributeName="r" values="160;180;160" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="985" cy="140" r="92" fill="url(#moon)"/>
+    <g fill="#f29ab8" opacity=".45">
+      <circle cx="950" cy="105" r="13"/>
+      <circle cx="1022" cy="92" r="7"/>
+      <circle cx="1030" cy="165" r="17"/>
+      <circle cx="940" cy="170" r="6"/>
+    </g>
+
+    <!-- город -->
+    <g fill="#0f1017">
+      <rect x="640" y="286" width="70" height="40"/>
+      <rect x="700" y="268" width="56" height="60"/>
+      <rect x="752" y="292" width="64" height="30"/>
+      <rect x="810" y="276" width="50" height="50"/>
+      <rect x="1090" y="262" width="60" height="60"/>
+      <rect x="1144" y="284" width="60" height="40"/>
+      <rect x="1104" y="246" width="4" height="18"/>
+    </g>
+    <rect x="856" y="252" width="240" height="70" fill="#0b0c12"/>
+    <rect x="848" y="246" width="256" height="8" rx="2" fill="#0b0c12"/>
+    <g fill="#e0af68">
+      <rect x="712" y="280" width="6" height="8" opacity=".8"/>
+      <rect x="730" y="296" width="6" height="8" opacity=".5"><animate attributeName="opacity" values=".5;.9;.1;.9;.5" dur="7s" repeatCount="indefinite"/></rect>
+      <rect x="822" y="290" width="6" height="8" opacity=".7"/>
+      <rect x="880" y="272" width="8" height="10" opacity=".8"/>
+      <rect x="900" y="292" width="8" height="10" opacity=".4"/>
+      <rect x="1050" y="272" width="8" height="10" opacity=".7"><animate attributeName="opacity" values=".7;.7;0;.7" keyTimes="0;.6;.62;1" dur="11s" repeatCount="indefinite"/></rect>
+      <rect x="1068" y="292" width="8" height="10" opacity=".6"/>
+      <rect x="1110" y="278" width="6" height="8" opacity=".8"/>
+      <rect x="1160" y="298" width="6" height="8" opacity=".5"/>
+    </g>
+    <circle cx="1106" cy="244" r="2.5" fill="#f7768e">
+      <animate attributeName="opacity" values="1;.1;1" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- кот -->
+    <g transform="translate(985,247)" fill="#0b0c12">
+      <path d="M26,-8 C68,-2 80,-40 60,-60" fill="none" stroke="#0b0c12" stroke-width="10" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" values="0 26 -8;14 26 -8;0 26 -8;-6 26 -8;0 26 -8" dur="3.6s" repeatCount="indefinite"/>
+      </path>
+      <ellipse cx="0" cy="-36" rx="33" ry="38"/>
+      <circle cx="0" cy="-90" r="26"/>
+      <polygon points="-25,-100 -21,-130 -3,-112"/>
+      <polygon points="25,-100 21,-130 3,-112"/>
+      <g fill="#9ece6a">
+        <ellipse cx="-10" cy="-92" rx="5" ry="6"><animate attributeName="ry" values="6;6;0.6;6;6" keyTimes="0;.46;.5;.54;1" dur="4.5s" repeatCount="indefinite"/></ellipse>
+        <ellipse cx="10" cy="-92" rx="5" ry="6"><animate attributeName="ry" values="6;6;0.6;6;6" keyTimes="0;.46;.5;.54;1" dur="4.5s" repeatCount="indefinite"/></ellipse>
+      </g>
+      <g fill="#0b0c12">
+        <ellipse cx="-10" cy="-92" rx="1.6" ry="5"/>
+        <ellipse cx="10" cy="-92" rx="1.6" ry="5"/>
+      </g>
+    </g>
+
+    <!-- текст -->
+    <text x="70" y="92" font-size="17" fill="#565f89">// hello, world — welcome to my profile</text>
+
+    <text class="g1" x="70" y="160" font-size="56" font-weight="800" fill="#f7768e" textLength="680" lengthAdjust="spacing">nullreferenceenjoyer</text>
+    <text class="g2" x="70" y="160" font-size="56" font-weight="800" fill="#7dcfff" textLength="680" lengthAdjust="spacing">nullreferenceenjoyer</text>
+    <text x="70" y="160" font-size="56" font-weight="800" fill="url(#title)" textLength="680" lengthAdjust="spacing">nullreferenceenjoyer</text>
+
+    <g clip-path="url(#typed)">
+      <text x="70" y="216" font-size="20" fill="#a9b1d6" textLength="660" lengthAdjust="spacing">&gt; Object reference not set to an instance of an object.</text>
+    </g>
+    <g class="cursor"><rect class="blink" x="74" y="197" width="11" height="24" fill="#bb9af7"/></g>
+
+    <circle cx="78" cy="262" r="5" fill="#9ece6a">
+      <animate attributeName="opacity" values="1;.3;1" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="94" y="268" font-size="16" fill="#a9b1d6">online · пишу код и ловлю null</text>
+
+    <!-- сакура -->
+    <g fill="#ffb7c5">
+      <g opacity=".9"><animateMotion dur="11s" begin="-2s" repeatCount="indefinite" path="M120,-20 C200,80 60,190 190,340"/><use href="#petal"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/></use></g>
+      <g opacity=".7"><animateMotion dur="14s" begin="-7s" repeatCount="indefinite" path="M330,-20 C400,90 280,200 420,340"/><use href="#petal" transform="scale(.8)"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="5s" repeatCount="indefinite"/></use></g>
+      <g opacity=".85"><animateMotion dur="12s" begin="-4s" repeatCount="indefinite" path="M560,-20 C640,70 500,210 640,340"/><use href="#petal"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.5s" repeatCount="indefinite"/></use></g>
+      <g opacity=".6"><animateMotion dur="16s" begin="-11s" repeatCount="indefinite" path="M760,-20 C820,100 700,180 830,340"/><use href="#petal"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="6s" repeatCount="indefinite"/></use></g>
+      <g opacity=".9"><animateMotion dur="10s" begin="-6s" repeatCount="indefinite" path="M900,-20 C980,60 860,200 960,340"/><use href="#petal"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.5s" repeatCount="indefinite"/></use></g>
+      <g opacity=".75"><animateMotion dur="13s" begin="-1s" repeatCount="indefinite" path="M1080,-20 C1150,90 1020,190 1140,340"/><use href="#petal"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="5.5s" repeatCount="indefinite"/></use></g>
+      <g opacity=".8"><animateMotion dur="15s" begin="-9s" repeatCount="indefinite" path="M20,-20 C90,110 -10,220 80,340"/><use href="#petal"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5s" repeatCount="indefinite"/></use></g>
+      <g opacity=".65"><animateMotion dur="12.5s" begin="-10s" repeatCount="indefinite" path="M460,-20 C520,60 420,230 520,340"/><use href="#petal"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="4.2s" repeatCount="indefinite"/></use></g>
+    </g>
+  </g>
+</svg>
