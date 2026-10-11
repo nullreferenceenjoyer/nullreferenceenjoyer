@@ -40,7 +40,7 @@
   <g clip-path="url(#frame)">
     <rect width="1200" height="320" fill="url(#sky)"/>
 
-    <!-- звёзды -->
+    <!-- stars -->
     <g fill="#c0caf5">
       <circle cx="60" cy="40" r="1.4"><animate attributeName="opacity" values="1;.2;1" dur="3.1s" repeatCount="indefinite"/></circle>
       <circle cx="180" cy="270" r="1.1"><animate attributeName="opacity" values=".3;1;.3" dur="4.3s" repeatCount="indefinite"/></circle>
@@ -55,13 +55,13 @@
       <circle cx="770" cy="170" r="1"><animate attributeName="opacity" values="1;.3;1" dur="5.5s" repeatCount="indefinite"/></circle>
     </g>
 
-    <!-- падающая звезда -->
+    <!-- shooting star -->
     <line x1="0" y1="0" x2="70" y2="24" stroke="#c0caf5" stroke-width="1.6" stroke-linecap="round" opacity="0">
       <animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.80;0.84;0.9;1" dur="8s" repeatCount="indefinite"/>
       <animateTransform attributeName="transform" type="translate" values="420,-30;420,-30;700,70;700,70" keyTimes="0;0.80;0.9;1" dur="8s" repeatCount="indefinite"/>
     </line>
 
-    <!-- луна -->
+    <!-- moon -->
     <circle cx="985" cy="140" r="170" fill="url(#glow)">
       <animate attributeName="r" values="160;180;160" dur="6s" repeatCount="indefinite"/>
     </circle>
@@ -73,7 +73,7 @@
       <circle cx="940" cy="170" r="6"/>
     </g>
 
-    <!-- город -->
+    <!-- city -->
     <g fill="#0f1017">
       <rect x="640" y="286" width="70" height="40"/>
       <rect x="700" y="268" width="56" height="60"/>
@@ -100,7 +100,7 @@
       <animate attributeName="opacity" values="1;.1;1" dur="1.6s" repeatCount="indefinite"/>
     </circle>
 
-    <!-- кот -->
+    <!-- cat -->
     <g transform="translate(985,247)" fill="#0b0c12">
       <path d="M26,-8 C68,-2 80,-40 60,-60" fill="none" stroke="#0b0c12" stroke-width="10" stroke-linecap="round">
         <animateTransform attributeName="transform" type="rotate" values="0 26 -8;14 26 -8;0 26 -8;-6 26 -8;0 26 -8" dur="3.6s" repeatCount="indefinite"/>
@@ -119,7 +119,7 @@
       </g>
     </g>
 
-    <!-- текст -->
+    <!-- text -->
     <text x="70" y="92" font-size="17" fill="#565f89">// hello, world — welcome to my profile</text>
 
     <text class="g1" x="70" y="160" font-size="56" font-weight="800" fill="#f7768e" textLength="680" lengthAdjust="spacing">nullreferenceenjoyer</text>
@@ -134,9 +134,9 @@
     <circle cx="78" cy="262" r="5" fill="#9ece6a">
       <animate attributeName="opacity" values="1;.3;1" dur="1.8s" repeatCount="indefinite"/>
     </circle>
-    <text x="94" y="268" font-size="16" fill="#a9b1d6">online · пишу код и ловлю null</text>
+    <text x="94" y="268" font-size="16" fill="#a9b1d6">online · arch (btw) · hyprland enjoyer · building Onyx</text>
 
-    <!-- сакура -->
+    <!-- sakura -->
     <g fill="#ffb7c5">
       <g opacity=".9"><animateMotion dur="11s" begin="-2s" repeatCount="indefinite" path="M120,-20 C200,80 60,190 190,340"/><use href="#petal"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/></use></g>
       <g opacity=".7"><animateMotion dur="14s" begin="-7s" repeatCount="indefinite" path="M330,-20 C400,90 280,200 420,340"/><use href="#petal" transform="scale(.8)"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="5s" repeatCount="indefinite"/></use></g>

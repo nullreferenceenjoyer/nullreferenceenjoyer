@@ -15,7 +15,7 @@
   <circle cx="24" cy="19" r="6" fill="#f7768e"/>
   <circle cx="44" cy="19" r="6" fill="#e0af68"/>
   <circle cx="64" cy="19" r="6" fill="#9ece6a"/>
-  <text x="450" y="24" text-anchor="middle" class="m" style="font-size:13px">null@tokyo-night: ~/nullreferenceenjoyer</text>
+  <text x="450" y="24" text-anchor="middle" class="m" style="font-size:13px">null@arch-btw: ~/nullreferenceenjoyer</text>
 
   <g opacity="0">
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.03;0.04;0.97;1" dur="16s" repeatCount="indefinite"/>
@@ -33,8 +33,8 @@
   <g opacity="0">
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.24;0.25;0.97;1" dur="16s" repeatCount="indefinite"/>
     <text x="24" y="154" class="o">{</text>
-    <text x="44" y="176"><tspan class="k">"role"</tspan><tspan class="o">: </tspan><tspan class="s">"fullstack developer"</tspan><tspan class="o">,</tspan></text>
-    <text x="44" y="198"><tspan class="k">"likes"</tspan><tspan class="o">: [</tspan><tspan class="s">"TypeScript"</tspan><tspan class="o">, </tspan><tspan class="s">"self-hosted"</tspan><tspan class="o">, </tspan><tspan class="s">"clean UI"</tspan><tspan class="o">, </tspan><tspan class="s">"anime"</tspan><tspan class="o">],</tspan></text>
+    <text x="44" y="176"><tspan class="k">"role"</tspan><tspan class="o">: </tspan><tspan class="s">"system administrator, software developer"</tspan><tspan class="o">,</tspan></text>
+    <text x="44" y="198"><tspan class="k">"likes"</tspan><tspan class="o">: [</tspan><tspan class="s">"TypeScript"</tspan><tspan class="o">, </tspan><tspan class="s">"self-hosted"</tspan><tspan class="o">, </tspan><tspan class="s">"anime"</tspan><tspan class="o">, </tspan><tspan class="s">"being a White Monster ambassador"</tspan><tspan class="o">],</tspan></text>
     <text x="44" y="220"><tspan class="k">"motto"</tspan><tspan class="o">: </tspan><tspan class="s">"it works on my machine"</tspan></text>
     <text x="24" y="242" class="o">}</text>
   </g>
@@ -45,7 +45,7 @@
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.50;0.51;0.97;1" dur="16s" repeatCount="indefinite"/>
-    <text x="24" y="302"><tspan class="e">NullReferenceException</tspan><tspan class="o">: plan was null</tspan><tspan class="m">  // не баг, а фича</tspan></text>
+    <text x="24" y="302"><tspan class="e">NullReferenceException</tspan><tspan class="o">: plan was null</tspan><tspan class="m">  // it's not a bug, it's a feature</tspan></text>
   </g>
   <g opacity="0">
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.56;0.57;0.97;1" dur="16s" repeatCount="indefinite"/>
