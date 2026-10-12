@@ -5,6 +5,7 @@
 <br />
 
 <a href="https://github.com/nullreferenceenjoyer/onyx"><img src="https://img.shields.io/badge/Onyx-1a1b26?style=for-the-badge&logo=obsidian&logoColor=f7768e" alt="Onyx" /></a>
+<a href="https://github.com/nullreferenceenjoyer/infodumper"><img src="https://img.shields.io/badge/Infodumper-1a1b26?style=for-the-badge&logo=readme&logoColor=9ece6a" alt="Infodumper" /></a>
 <img src="https://img.shields.io/badge/Arch_(btw)-1a1b26?style=for-the-badge&logo=archlinux&logoColor=7aa2f7" alt="Arch Linux, btw" />
 <img src="https://img.shields.io/badge/Hyprland_enjoyer-1a1b26?style=for-the-badge&logo=hyprland&logoColor=7dcfff" alt="Hyprland enjoyer" />
 <a href="https://github.com/nullreferenceenjoyer?tab=repositories"><img src="https://img.shields.io/badge/repositories-1a1b26?style=for-the-badge&logo=github&logoColor=bb9af7" alt="Repositories" /></a>
@@ -41,6 +42,7 @@
 | 🐧 **Setup** | Arch (btw) + Hyprland |
 | 🏋️ **Outside of code** | Gymrat |
 | 🖤 **Project** | [Onyx](https://github.com/nullreferenceenjoyer/onyx) — a self-hosted Obsidian in the browser |
+| 📚 **Knowledge base** | [Infodumper](https://github.com/nullreferenceenjoyer/infodumper) — my personal knowledge base |
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
